@@ -36,7 +36,6 @@
 ```text
 delivery-time-prediction/
 ├── models/
-│   ├── .gitkeep
 │   └── model.joblib
 ├── src/
 │   ├── __init__.py

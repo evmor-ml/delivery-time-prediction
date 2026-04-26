@@ -1,0 +1,12 @@
+{
+    "distance_km": 3.8,
+    "prep_time_avg": 20,   
+    "precip_mm": 8.34, 
+    "traffic_level": 2, 
+    "hour_sin": 0.97,
+    "is_fast_food": 0,
+    "is_express_delivery": 0, 
+    "base_speed_kmh": 55.00,  
+    "items_count": 2, 
+    "hour_cos": -0.26
+}

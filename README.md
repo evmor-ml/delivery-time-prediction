@@ -64,7 +64,7 @@ delivery-time-prediction/
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/evmor-ml/delivery-time-prediction.git
+git clone https://github.com/evmor-ml/delivery-time-prediction
 cd delivery-time-prediction
 ```
 

@@ -43,8 +43,7 @@ delivery-time-prediction/
 │   └── inference.py
 ├── tests/
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -111,7 +110,6 @@ http://127.0.0.1:8000
 FastAPI автоматически создаёт интерактивную документацию:
 
 - Swagger UI: `http://127.0.0.1:8000/docs`
-- ReDoc: `http://127.0.0.1:8000/redoc`
 
 ---
 

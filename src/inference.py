@@ -5,12 +5,11 @@ Description:
 """
 
 import joblib
-from typing import List
-
 import pandas as pd
 from sklearn.base import BaseEstimator
+from typing import List
 
-# model_path = 'models/model.joblib'
+
 def load_model(model_path: str) -> BaseEstimator:
     """
     Function to load a model from disk.
@@ -30,7 +29,7 @@ def load_model(model_path: str) -> BaseEstimator:
         return model
     except FileNotFoundError as e:
         raise FileNotFoundError(f"Model not found at {model_path}") from e
-    
+
 
 def predict(model: BaseEstimator, df: pd.DataFrame) -> List[float]:
     """

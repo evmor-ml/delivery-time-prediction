@@ -1,0 +1,58 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+myenv/
+.env
+.venv
+.myenv
+
+# Logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+logs/
+
+# ML Models
+# *.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+# models/*.joblib
+!models/.gitkeep
+
+# Data 
+data/raw/*.csv
+data/processed/*.csv
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Local configs
+.env.local
+*.secret.*
